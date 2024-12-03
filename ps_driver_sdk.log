@@ -1,0 +1,13 @@
+[2024-11-27 14:34:10.596] [PSS] [info] ***********  Log Begin **********
+[2024-11-27 14:34:10.596] [PSS] [info] process id= 15248
+[2024-11-27 14:34:10.597] [PSS] [debug] [15248|19440]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x2563b22aeb0, this= 0x256250e0a70
+[2024-11-27 14:34:10.597] [PSS] [debug] [15248|19440]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x256250e0a70
+[2024-11-27 14:34:10.597] [PSS] [debug] [15248|19440]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x256250e0a70
+[2024-11-27 14:34:10.597] [PSS] [error] [15248|12364]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x256250e0a70
+[2024-11-27 14:34:10.598] [PSS] [debug] [15248|12364]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x256250e0a70
+[2024-11-27 14:34:10.598] [PSS] [debug] [15248|12364]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x257030b90e0
+[2024-11-27 14:34:10.598] [PSS] [info] [15248|12364]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x257030b90e0
+[2024-11-27 14:34:10.598] [PSS] [debug] [15248|12364]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x257030b90f0, this= 0x2565c245cf0
+[2024-11-27 14:34:12.637] [PSS] [error] [15248|15216]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x257030b90e0
+[2024-11-27 14:34:12.637] [PSS] [debug] [15248|15216]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x256250e0a70
+[2024-11-27 14:34:12.637] [PSS] [error] [15248|15216]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x256250e0a70
